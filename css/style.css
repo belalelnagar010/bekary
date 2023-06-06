@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*start home*/
+.navbar .navbar-brand img{
+    width: 150px;
+}
+.navbar-brand img{
+    width: 70px;
+}
+
+.nav-link{
+    color: #666;
+}
+.nav-item{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.nav-item a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #282828;
+}
+.nav-item .active,
+.nav-item a:hover{
+    color: #f25454;
+}
+.navbar-collapse div .fab{
+    color: #6C757D;
+    transition: all 0.4s;
+}
+.navbar-collapse div .fab:hover{
+    transform: scale(1.2);
+}
+.navbar-collapse div .fa-twitter:hover{
+    color: #2AA9E0;
+}
+.navbar-collapse div .fa-facebook-f:hover{
+    color: #1877F2;
+}
+.navbar-collapse div .fa-instagram:hover{
+    color: #F76541;
+}
+
+#home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+   
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.icon-home{
+    position: absolute;
+    right: 0;
+    top: 150px;
+    background-color: #ffffff;
+    font-size: 20px;
+    padding: 18px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: gray;
+    box-shadow: inset 8px 8px 12px #e2e2e2, inset -8px -8px 12px #ffffff;
+    position: fixed;
+    z-index: 9999;
+    cursor: pointer;
+    
+}
+
+.home-caption h5{
+    font-size: 30px;
+}
+
+.home-caption h1{
+    font-size: 80px;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+.home-caption p{
+    font-size: 21px;
+}
+
+.home-caption .btn-1{
+    background-color: #8F7854;
+    color: #fff;
+    padding: 13px 13px 13px 13px;
+    border: 1px solid #8F7854;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 1s all ease;
+}
+.home-caption .btn-2{
+    background-color: transparent;
+    color: #fff;
+    padding: 13px 13px 13px 13px;
+    border: 1px solid #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 1s all ease;
+    margin-left: 10px;
+}
+
+.home-caption .btn-1:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+.home-caption .btn-2:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+.icon-top-home a i{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 580px;
+    border: 2px solid #ffffff;
+    background-color: black;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    position: fixed;
+    transition: 2s all;
+}
+.icon-top-home a i:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+/*end home*/
+
+
+/*start about */
+.about .about-img img{
+    border-radius: 6px;
+}
+.about{
+    font-family: "Alegreya"
+}
+
+.about-caption{
+    margin-left: 30px;
+}
+
+.about-caption h2{
+    color: #303030;
+}
+
+.about-caption p{
+   line-height:30px;
+   color: #686868;
+}
+.about-caption .icon i {
+    line-height: 30px;
+    font-size: 20px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: #8F7854;
+    margin-top: 5px;
+   
+}
+
+.about-caption .icon span {
+    color: #686868;
+}
+/*end about */
+
+
+/*start offer*/
+.offer{
+    background-color: #F8F8F8;
+    
+}
+
+.offer .offer-img img{
+    border-radius: 6px;
+}
+
+.offer p{
+    line-height: 30px;
+    font-size: 17px;
+    color: #686868;
+}
+.offer h2{
+    color: #303030;
+}
+/*end offer*/
+
+
+/*start blog*/
+
+.blog h1{
+    color: #303030;
+    font-family: "Alegreya"
+}
+
+.col-md-4 img{
+    border-radius: 6px;
+}
+
+ .blog .col-md-4 h2{
+    font-family: "Alegreya"
+}
+
+.blog .col-md-4 p{
+    color: #686868;
+}
+/*end blog*/
+/*start contact*/
+
+.contact h2{
+    font-family: "Alegreya"
+}
+
+.contact p{
+    line-height: 30px;
+    color: #686868;
+}
+
+.contact h5{
+    color: #686868;
+
+}
+
+.icon-contact i{
+    font-size: 20px;
+    border: 2px solid rgba(0,0,0,.15) ;
+    background-color:#8F7854 ;
+    color:#ffffff ;
+    padding:13px 13px 13px 13px ;
+    border-radius: 50%;
+}
+
+.icon-contact span{
+    padding-left: 20px;
+    color: #686868;
+}
+
+
+/*end contact*/
+
+/*start footer*/
+
+.footer{
+    background-color: #222;
+    color: #686868;
+}
+
+.footer h4{
+    color: #ffffff;
+    font-family: "Alegreya"
+}
+
+.spechial{
+    padding-left:20px;
+}
+
+hr{
+   background-color: #686868;
+   width: 200px;
+}
+
+
+.icon-footer span{
+    padding-left: 10px;
+}
+
+.Contact-Details{
+    padding-left: 40px;
+}
+/* end footer*/
+
+/* strat END*/
+
+#END{
+   background-color: #111;
+   color: #ffffff;
+}
+
+#END p{
+    color: #686868;
+}
+
+#END i{
+    letter-spacing: 4px;
+    font-size: 25px ;
+    border: 1px solid #222;
+    padding: 13px 13px 13px 13px;
+    border-radius: 50%;
+    background: #222;
+    color: #686868;
+    transition: 1s all ease;
+    cursor: pointer;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#END i:hover{
+    background-color: #1877F2;
+    color: #fff;
+}
+/* end END*/
+
+#footer{
+    background-color: #333;
+}
+#footer .item h4{
+    text-transform: none;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-family: "Alegreya";
+    line-height: 1.38em;
+}
+#footer .item p{
+    color: #969696;
+    font-size: 16px;
+    line-height: 2em;
+    margin-bottom: 20px;
+}
+.child{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.child:last-child{
+    border-bottom: none ;
+}
+.child span{
+    margin-right: 20px;
+}
+.child span i{
+    color: #969696;
+    font-size: 18px;
+}
+#footer .item p a{
+    color: #969696;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+#footer .item p a:hover{
+    color: #fff;
+}
+ #footer .col-lg-3:last-child{
+position: relative;
+z-index: 5;
+}
+#footer .col-lg-3:last-child .item{
+    background-image: url(../images/contact-details.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*media */
+@media screen and (max-width:668px) {
+
+    .home-caption h1{
+        font-size: 50px;
+        
+    
+    }
+
+    .home-caption p{
+        font-size: 17px;
+    }
+
+    .home-caption .btn-1{
+        font-size: 17px;
+    }
+    .home-caption .btn-2{
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width:548px){
+    .home-caption h1{
+        font-size: 30px;
+
+    }
+
+    .home-caption p{
+        font-size: 15px;
+    }
+  
+
+    .home-caption .btn-1{
+        font-size: 15px;
+    }
+    .home-caption .btn-2{
+        font-size: 15px;
+    }
+    
+
+}
