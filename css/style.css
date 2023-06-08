@@ -5,6 +5,21 @@
 }
 
 
+ /************************************************  new **************************************************/
+ /* ده علشان يحل مشكلة السكرول اللى تحت ويحذف الجزء الابيض اللى على اليمين  */
+body {
+    overflow-x: hidden;
+}
+
+/* الكلاس ده انا عملته علشان اخلى الديف اللى فيها الكلام تكون فى نص الصفحة فى جميع الشاشت  */
+.flexs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ /************************************************  new **************************************************/
+
+
 /*start home*/
 .navbar .navbar-brand img{
     width: 150px;
@@ -93,7 +108,7 @@
     border: 1px solid #8F7854;
     font-size: 20px;
     font-family: sans-serif;
-    transition: 1s all ease;
+    /* transition: 1s all ease; */
 }
 .home-caption .btn-2{
     background-color: transparent;
@@ -102,7 +117,7 @@
     border: 1px solid #ffffff;
     font-size: 20px;
     font-family: sans-serif;
-    transition: 1s all ease;
+    /* transition: 1s all ease; */
     margin-left: 10px;
 }
 
@@ -120,19 +135,42 @@
     color: black;
     font-size: 20px;
     position: absolute;
-    right: 10px;
-    top: 580px;
+    /* top: 580px; */
+ 
+
     border: 2px solid #ffffff;
     background-color: black;
     color: #ffffff;
     padding: 10px 10px 10px 10px;
     border-radius: 50%;
     position: fixed;
-    transition: 2s all;
+    transition: 0.5s all;
+
+     /************************************************  new **************************************************/
+
+       /*  
+    استخدم ال 
+    button 
+    افضل
+    
+    */      
+    
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /************************************************  new **************************************************/
 }
 .icon-top-home a i:hover{
     background-color: #ffffff;
     color: black;
+
+     /************************************************  new **************************************************/
+    border: 1px solid #aaa;
+     /************************************************  new **************************************************/
 }
 
 /*end home*/
